@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scholars Lens Feedback Form</title>
+    <link rel="stylesheet" href="../css/formproject.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Scholars Lens Feedback Form</h1>
+
+        <p id="description">
+            Thank you for taking the time to help us improve the platform!
+        </p>
+    </header>
+
+    <form id="survey-form">
+        <label for="name" id="name-label">
+            <b>Name</b> <input id="name" class="name" type="text" placeholder="Enter your name" required />
+        </label>
+
+        <label for="email" id="email-label">
+            <b>Email</b> <input id="email" type="email" placeholder="Enter your email" required />
+        </label>
+
+        <label for="number" id="number-label">
+            <b>Age</b> <span>(optional)</span> <input id="number" type="number" min="16" max="65" placeholder="Enter your age" />
+        </label>
+
+        <label for="dropdown">
+            <b>What level are you?</b>
+            <select id="dropdowm">
+                <option value="">Select an option</option>
+                <option value="1">Undergraduate</option>
+
+                <option value="2">Graduate</option>
+
+                <option value="3">Working class</option>
+            </select>
+        </label>
+
+
+        <fieldset>
+            <legend> <b>How did you hear about Scholars Lens?</b></legend>
+
+            <label for="socialMedia" id="socialMedia">
+                <input name="ref" class="socialMedia" value="opt1" type="radio" checked />
+                Social media </label>
+            <label for="website" id="website">
+                <input name="ref" class="website" value="opt2" type="radio" /> Our website </label>
+            <label for="familyandFriends" id="familyandFriends">
+                <input name="ref" class="familyandFriends" value="opt3" type="radio" /> Family/Friends
+            </label>
+            <label for="other" id="radio">
+                <input name="ref" class="other" value="opt4" type="radio" /> Other
+            </label>
+            <legend><b>How will you describe your experience with us?</b></legend>
+            <label for="amazing" id="amazing">
+                <input name="experience" class="amazing" value="opt5" type="radio" checked /> Amazing </label>
+            <label for="good" id="good">
+                <input name="experience" class="good" value="opt6" type="radio" /> Good </label>
+            <label for="bad" id="bad">
+                <input name="experience" class="bad" value="opt7" type="radio" /> Bad
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>What would you like to see improved?</b> <span>(Select all that apply)</span></legend>
+            <label for="content" value="checkbox">
+                <input value="1" name="content" type="checkbox" class="content" />
+                Content </label>
+            <label for="socialMedia_" value="checkbox">
+                <input value="2" name="socialMedia_" type="checkbox" class="socialMedia_" />
+                Social media </label>
+            <label for="newsletter" value="checkbox">
+                <input value="3" name="newsletter" type="checkbox" class="newsletter" />
+                Newsletter </label>
+
+        </fieldset>
+
+        <label for="comment" id="comment">
+            <b>Any comments or suggestions?</b><textarea type="textarea" name="comment" type="text" rows="5" cols="50"
+                placeholder="Enter your comment here..."></textarea>
+        </label>
+        <div class="submitButton">
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
+

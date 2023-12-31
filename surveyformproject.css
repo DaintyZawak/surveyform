@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(../Assets/jess-bailey-q10VITrVYUM-unsplash.jpg), rgb(249, 191, 249);
+    background-blend-mode: multiply;
+    background-repeat: norepeat;
+    background-size: cover;
+    color: white;
+}
+form {
+    margin: auto;
+    width: 500px;
+    height: 1100px;
+    background-color: purple;
+    padding: 30px;
+    text-align: justify;
+    
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+
+#name, #email, #number {
+    margin-top: 10px;
+    display: block;
+    width: 450px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+ }
+
+ select  {
+    display: block;
+    width: 450px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+ }
+
+ select[option] {
+    padding-left: 20px;
+ }
+ textarea {
+    display: block;
+    width: 450px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+
+ }
+
+
+#radio, .checkbox {
+    width: 150px;
+    vertical-align: middle;
+
+ }
+
+ 
+header {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    color: black;
+}
+
+p {
+   margin-top: 15px; 
+}
+
+#title {
+    font-size: 30px;
+    font-weight:bolder ;
+}
+
+#description {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.submitButton {
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+span {
+    font-size: 14px;
+}
+
+fieldset {
+    text-decoration: none;
+    border: unset;
+    margin-top: 15px;
+}
+
+fieldset > legend {
+    margin-top: 15px;
+}
+
+input::placeholder {
+    padding-left: 20px;
+}
+
+#selectItem::placeholder {
+    padding-left: 20px;
+}
+
+textarea::placeholder {
+    padding: 10px 0 0 20px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    
+    button {
+        width: 200px;
+        height: 35px;
+        border: none;
+        border-radius: 15px;
+        margin-top: 40px;
+        cursor: pointer;
+    
+    }
+
+    select  {
+        display: block;
+        width: 300px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 15px;
+     }
+
+     #name, #email, #number {
+        margin-top: 10px;
+        display: block;
+        width: 300px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+     }
+
+     textarea {
+        display: block;
+        width: 300px;
+        height: 100px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 15px;
+    
+     }
+
+     form {
+        margin: auto;
+        margin-top: 30px;
+        width: 400px;
+        height: 1100px;
+        background-color: purple;
+        padding: 30px;
+        
+    }
+    
+    header {
+        text-align: center;
+        padding: 20px;
+        color: black;
+        background-color:rgb(242, 182, 242) ;
+        width: 300px;
+        height: 150px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 15px;
+
+    }
+    
+    #title {
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    
+    
+
+}
