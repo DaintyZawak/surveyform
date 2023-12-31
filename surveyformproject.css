@@ -101,6 +101,8 @@ button {
     margin-top: 40px;
     cursor: pointer;
     background-color: #fff;
+    color: #000000;
+    
 }
 
 button:hover {
@@ -146,6 +148,7 @@ textarea::placeholder {
         margin-top: 40px;
         cursor: pointer;
         background-color: #fff;
+        color: #000000;
     
     }
 
